@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+html {
+  height: 100%;
+}
+
+body {
+  background: #d5d5d5;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  display: flex;
+  flex-flow: column;
+  height: 100%;
+}
+
+#nav {
+  background: #8f1616;
+  text-align:  center;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #fff;
+  padding: 10px 15px;
+  display: inline-block;
+  transition: background .3s;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+.active {
+  background:  #a44b4b;
+}
+
+#main {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#footer {
+  background: #8f1616;
+  padding: 10px 0;
+  color: #fff;
+  text-align: center;
+  font-size: 14px;
+}
