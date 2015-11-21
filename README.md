@@ -11,6 +11,11 @@ Criaremos uma Single Page Application, passo a passo, utilizando [Jquery](https:
 - Revisar as principais features do jquery, principalmente Ajax.
 - Aprenderemos como utilizar a [history api](http://www.w3.org/TR/2011/WD-html5-20110113/history.html).
 
+**Dica para rodar um servidor estático**
+
+```sh
+$ python -m SimpleHTTPServer 58000
+```
 ## Contribua :)
 
 Quer contribuir? [Da uma olhada aqui ;)](https://github.com/afonsopacifer/pacificator/blob/master/CONTRIBUTING.md)
