@@ -18,7 +18,11 @@ $(document).ready(function(){
     var href = $(this).attr('href');
     e.preventDefault();
     //Carregando o especifco requisitado
-    main.load(href+' '+content);
+    main.fadeOut('fast', function(){
+      main.load(href+' '+content, function(){
+        main.fadeIn('fast');
+      });
+    });
     //Definindo o state
     window.history.pushState({page: href}, null, href);
 
@@ -33,7 +37,11 @@ $(document).ready(function(){
       var pageState = event.state.page;
     }
     //Carregando o especifco requisitado
-    main.load(pageState+' '+content);
+    main.fadeOut('fast', function(){
+      main.load(pageState+' '+content, function(){
+        main.fadeIn('fast');
+      });
+    });
 
     menuFeedback();
   });
