@@ -7,7 +7,7 @@ $(document).ready(function(){
   //Adicionado propriedades a primeira pagina aberta pelo browser
   //--------------------------------------------------------------
   //Definindo o state
-  var local = window.location.pathname;
+  var local = window.location.pathname.split('/').pop();
   window.history.pushState({page: local}, null, "");
 
   menuFeedback();
@@ -49,9 +49,10 @@ $(document).ready(function(){
   //verifica a pagina atual e adiciona a classe .active ao seu link no menu
   //--------------------------------------------------------------
   function menuFeedback() {
-    var local = window.location.pathname;
+    $(this).addClass('active');
+    var local = window.location.pathname.split('/').pop();
     navLink.each(function(){
-      if ( "/"+$(this).attr('href') == local ) {
+      if ($(this).attr('href') == local ) {
         $(this).addClass('active');
       } else {
         $(this).removeClass('active');
