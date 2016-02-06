@@ -18,8 +18,8 @@ $ python -m SimpleHTTPServer 58000
 ```
 ## Contribua :)
 
-Quer contribuir? [Da uma olhada aqui ;)](https://github.com/afonsopacifer/pacificator/blob/master/CONTRIBUTING.md)
+Quer contribuir? [Da uma olhada aqui ;)](https://github.com/afonsopacifer/SPA-example/blob/master/CONTRIBUTING.md)
 
 ## Licença
 
-[MIT Licence](https://github.com/afonsopacifer/pacificator/blob/master/LICENCE.md) © [Afonso Pacifer](http://afonsopacifer.com/)
+[MIT License](https://github.com/afonsopacifer/SPA-example/blob/master/LICENSE.md) © [Afonso Pacifer](http://afonsopacifer.com/)
